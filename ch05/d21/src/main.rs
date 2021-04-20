@@ -1,4 +1,9 @@
 fn main() {
+
+    let c = Chef;
+    // c.start(); wrong  multiple applicable items in scope
+    <Chef as Cook>::start(&c);
+    <Chef as Wash>::start(&c);
 }
 
 
