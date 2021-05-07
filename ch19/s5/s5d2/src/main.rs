@@ -9,9 +9,17 @@ fn test<'a>(s: &'a &'static str) {
     let local: &'a &'a str = s;
 }
 
+fn test2<'a>(s: &'a mut &'static mut str) {
+    let local : &'a mut &'a mut str = s;
+}
+
 
 fn test1<'a>(s: &'a mut &'static str) {
     let local : &'a mut &'a str = s;
+}
+
+fn t1<'a>(s: &'a &'static mut str) {
+    let local : &'a &'a mut str = s;
 }
 
 
