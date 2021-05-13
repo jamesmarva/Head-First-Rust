@@ -7,6 +7,6 @@ fn main() {
 }
 
 
-fn contais<'a, P: Pattern<'a>>(&'a self, pat: P) -> bool{
+// fn contais<'a, P: Pattern<'a>>(&'a self, pat: P) -> bool{
 
-}
+// }
