@@ -20,7 +20,6 @@ impl PartialEq for T {
 }
 
 impl Display for T {
-
     fn fmt(&self, f: &mut Formatter<'_>) -> Result {
         write!(f, "{}", self.val)
     }
