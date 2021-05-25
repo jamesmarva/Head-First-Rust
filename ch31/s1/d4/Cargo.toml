@@ -7,3 +7,17 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+threadpool = "1.8.1"
+
+# https://crates.io/crates/parking_lot
+parking_lot = "0.11.1"
+
+# https://crates.io/crates/crossbeam-utils
+crossbeam-utils = "0.8.4"
+
+# https://crates.io/crates/crossbeam
+crossbeam = "0.8.0"
+
+# https://crates.io/crates/rayon
+rayon = "1.5.1"
