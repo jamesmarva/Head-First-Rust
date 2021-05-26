@@ -7,3 +7,13 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+num_cpus = "1"
+# https://crates.io/crates/twilight-gateway-queue
+twilight-gateway-queue = "0.4.0"
+
+# https://crates.io/crates/aio-limited
+aio-limited = "0.1.1"
+
+# https://crates.io/crates/ratelimit_rs
+# https://en.wikipedia.org/wiki/Token_bucket
+ratelimit_rs = "0.1.4"
