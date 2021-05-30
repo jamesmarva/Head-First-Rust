@@ -3,4 +3,7 @@ fn main() {
 
     let arr2: [i32; 5] = [0; 5];
 
+
+    let t1 = "hello";
+    let t2 = t1.to_string();
 }
